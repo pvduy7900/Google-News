@@ -5,7 +5,7 @@ let time
 const apiKey = "babe694f33a04cdab11865f2d27920bb"
 
 const loadNews = async () => {
-    let url = `http://newsapi.org/v2/everything?q=money&page=${count}&sortBy=publishedAt&apikey=${apiKey}`
+    let url = `https://newsapi.org/v2/everything?q=money&page=${count}&sortBy=publishedAt&apikey=${apiKey}`
     let data = await fetch(url)
     let result = await data.json();
     let dataList = result.articles
