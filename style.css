@@ -1,0 +1,40 @@
+#news{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid gray;
+    justify-content: space-between;
+    margin: 10px;
+}
+.navbar_left{
+    position: fixed;
+}
+
+#title{
+    font-size: 20px;
+}
+
+#source{
+    color: blue;
+}
+
+#source:hover{
+    text-decoration: underline;
+}
+
+.container-fluid{
+    color: white;
+    background-color: black;
+}
+
+#contentArea{
+    margin: 10px;
+}
+#imgArea{
+    margin: 10px;
+}
+
+.sidebar-sticky{
+    color: white;
+    background-color: black;
+}
